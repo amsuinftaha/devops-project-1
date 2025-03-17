@@ -27,6 +27,7 @@ pipeline {
                             dir('infra') {
                             sh 'echo "=================Terraform Init=================="'
                             sh 'terraform init'
+                            sh 'aws sts get-caller-identity'
                         }
                     }
                 }
