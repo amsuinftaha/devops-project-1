@@ -13,4 +13,4 @@ ec2_ami_id     = "ami-06dd92ecc74fdfb36"
 
 ec2_user_data_install_apache = ""
 
-domain_name =  "amsuinf.xyz"
+domain_name =  "app.amsuinf.xyz"
